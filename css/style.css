@@ -1,4 +1,4 @@
-div.jqcloud {
+article.jqcloud {
   font-family: "Helvetica", "Arial", sans-serif;
   color: #09f;
   overflow: hidden;
@@ -9,57 +9,57 @@ div.jqcloud {
    border: none;
    vertical-align: middle;
 }
-div.jqcloud a {
+article.jqcloud a {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
 }
-div.jqcloud a:hover {
+article.jqcloud a:hover {
   color: #0df;
 }
-div.jqcloud a:hover {
+article.jqcloud a:hover {
   color: #0cf;
 }
-div.jqcloud span {
+article.jqcloud span {
   padding: 0;
 }
-div.jqcloud span.w10 {
+article.jqcloud span.w10 {
   font-size: 74px;
   color: #0cf;
 }
-div.jqcloud span.w9 {
+article.jqcloud span.w9 {
   font-size: 70px;
   color: #0cf;
 }
-div.jqcloud span.w8 {
+article.jqcloud span.w8 {
   font-size: 64px;
   color: #0cf;
 }
-div.jqcloud span.w7 {
+article.jqcloud span.w7 {
   font-size: 60px;
   color: #39d;
 }
-div.jqcloud span.w6 {
+article.jqcloud span.w6 {
   font-size: 54px;
   color: #90c5f0;
 }
-div.jqcloud span.w5 {
+article.jqcloud span.w5 {
   font-size: 50px;
   color: #90a0dd;
 }
-div.jqcloud span.w4 {
+article.jqcloud span.w4 {
   font-size: 44px;
   color: #90c5f0;
 }
-div.jqcloud span.w3 {
+article.jqcloud span.w3 {
   font-size: 40px;
   color: #a0ddff;
 }
-div.jqcloud span.w2 {
+article.jqcloud span.w2 {
   font-size: 34px;
   color: #99ccee;
 }
-div.jqcloud span.w1 {
+article.jqcloud span.w1 {
   font-size: 30px;
   color: #aab5f0;
 }
