@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GallifreyanCode.getTagCloud()</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jqcloud-0.2.10.min.js"></script>
+    <script type="text/javascript">
+      /*!
+       * Create an array of objects to be passed to jQCloud, each representing a word in the cloud
+       */
+      var word_list = [
+          {text: "Java", weight: 15},
+          {text: "EE", weight: 9},
+          {text: "OSGi", weight: 6, url: "http://www.osgi.org"},
+          {text: "Spring", weight: 8},
+          {text: "Open Source", weight: 5}
+          // ...other words
+      ];
+      $(document).ready(function() {
+        // Call jQCloud on a jQuery object passing the word list as the first argument. Chainability of methods is maintained.
+        $("#container").jQCloud(word_list);
+      });
+    </script>
+  </head>
+  <body>
+    <!-- You must explicitly specify the dimensions of the container element -->
+	<header align="center"><h1>GallifreyanCode</h1></header>
+    <div id="container" style="width: 550px; height: 350px; position: relative; vertical-align: middle;"></div>
+  </body>
+</html>
