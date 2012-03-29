@@ -1,3 +1,12 @@
+h1{
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #90c5f0;
+}
+body
+{
+background-color:#E0F2F7;
+}
+
 article.jqcloud {
   font-family: "Helvetica", "Arial", sans-serif;
   color: #09f;
@@ -48,18 +57,18 @@ article.jqcloud span.w5 {
   color: #90a0dd;
 }
 article.jqcloud span.w4 {
-  font-size: 44px;
+  font-size: 34px;
   color: #90c5f0;
 }
 article.jqcloud span.w3 {
-  font-size: 40px;
+  font-size: 30px;
   color: #a0ddff;
 }
 article.jqcloud span.w2 {
-  font-size: 34px;
+  font-size: 24px;
   color: #99ccee;
 }
 article.jqcloud span.w1 {
-  font-size: 30px;
+  font-size: 20px;
   color: #aab5f0;
 }
