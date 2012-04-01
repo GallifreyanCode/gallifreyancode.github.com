@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>getTagCloud()</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/jqcloud-0.2.10.min.js"></script>
-    <script type="text/javascript">
-      var word_list = [
-          {text: "Java", weight: 15},
-          {text: "EE", weight: 9},
-          {text: "OSGi", weight: 5, url: "http://www.osgi.org"},
-          {text: "Spring", weight: 8},
-          {text: "Open Source", weight: 5},
-		  {text: "Maven", weight: 6},
-		  {text: "Hibernate", weight: 6},
-		  {text: "Agile", weight: 6},
-		  {text: "EclipseLink", weight: 5},
-		  {text: "OpenJPA", weight: 4},
-		  {text: "Vaadin", weight: 4},
-		  {text: "CXF", weight: 3},
-		  {text: "REST", weight: 3},
-		  {text: "SVN", weight: 3},
-		  {text: "Git", weight: 3},
-		  {text: "Artifactory", weight: 3},
-		  {text: "Jenkins", weight: 3},
-		  {text: "Tomcat", weight: 3},
-		  {text: "Jetty", weight: 3},
-		  {text: "GlassFish", weight: 3},
-		  {text: "WebLogic", weight: 3},
-		  {text: "JBoss AS", weight: 2},
-		  {text: "JavaScript", weight: 1},
-		  {text: "HTML5", weight: 2},
-		  {text: "PHP", weight: 1}
-      ];
-      $(document).ready(function() {
-        $("#container").jQCloud(word_list);
-      });
-    </script>
-  </head>
-  <body>
-	<header align="center"><h1>GallifreyanCode</h1></header>
-    <article id="container" style="width: 750px; height: 550px; position: relative; vertical-align: middle;"></article>
-  </body>
+	<head>
+	    <title>getTagCloud()</title>
+	    <link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	    <script type="text/javascript" src="js/jqcloud-0.2.10.min.js"></script>
+	    <script type="text/javascript">
+			var word_list = [
+				{text: "Java", weight: 15},
+				{text: "OO", weight: 9},
+				{text: "EE", weight: 9},
+				{text: "Spring", weight: 8},
+				{text: "Open Source", weight: 6},
+				{text: "Maven", weight: 6},
+				{text: "Hibernate", weight: 6},
+				{text: "Agile", weight: 6},
+				{text: "Modular", weight: 6},
+				{text: "Linux", weight: 6},
+				{text: "OSGi", weight: 5, url: "http://www.osgi.org"},
+				{text: "EclipseLink", weight: 5},
+				{text: "Vaadin", weight: 5},
+				{text: "Felix", weight: 5},
+				{text: "OpenJPA", weight: 4},
+				{text: "Karaf", weight: 4},
+				{text: "CXF", weight: 3},
+				{text: "REST", weight: 3},
+				{text: "SVN", weight: 3},
+				{text: "Git", weight: 3},
+				{text: "Artifactory", weight: 3},
+				{text: "Jenkins", weight: 3},
+				{text: "Tomcat", weight: 3},
+				{text: "Jetty", weight: 3},
+				{text: "GlassFish", weight: 3},
+				{text: "WebLogic", weight: 3},
+				{text: "JBoss AS", weight: 2},
+				{text: "Virgo", weight: 2},
+				{text: "JavaScript", weight: 2},
+				{text: "NOSQL", weight: 2},
+				{text: "HTML5", weight: 2},
+				{text: "FLEX", weight: 1},
+				{text: "PHP", weight: 1},
+				{text: "AS3", weight: 1}
+			];
+			$(document).ready(function() {
+				$("#container").jQCloud(word_list);
+			});
+		</script>
+	</head>
+	<body>
+		<header align="center"><h1>GallifreyanCode</h1></header>
+		<article id="container" style="width: 750px; height: 550px; position: relative; vertical-align: middle;"></article>
+	</body>
 </html>
